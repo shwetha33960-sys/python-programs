@@ -8,8 +8,8 @@ while i<=10:
 password="password"
 entered_pass=input("enter password")
 while entered_pass!=password:
-    print("try again")
-
+    entered_pass=input("wrong password ! try again : ")
+print("succesfull")
     
 
 #Use a while loop to reverse a given number (e.g., 123 → 321).
